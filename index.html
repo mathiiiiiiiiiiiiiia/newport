@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    
+
+</head>
+
+
+<body>
+    
+    <nav class="nav-superior" id="menu">
+        <div class="aparte">
+            <h2 id="home" class="menu-title">Portafolio</h2>
+            <div id="content">
+                <a href="#foto" class="menu" data-target="home" onclick="retrasarRedireccion(event)">Inicio </a>
+                <a href="#skills" class="menu" data-target="skills" onclick="retrasarRedireccion(event)">Habilidades</a>
+                <a href="#works" class="menu" data-target="works" onclick="retrasarRedireccion(event)">Trabajos</a>
+                <a href="#resume" class="menu" data-target="resume" onclick="retrasarRedireccion(event)">Resumen</a>
+                <a href="#contact" class="menu" data-target="contact" onclick="retrasarRedireccion(event)">Contacto</a>
+                <a href="" class="menu">
+                </a>
+            </div>
+        </div>
+        <div class="apartado">
+            </label>
+        </div>
+    </nav>
+        <div class="apartado">
+            <label for="toggleCheckbox" class="toggle-label">
+                <input type="checkbox" id="toggleCheckbox">
+            </label>
+        </div>
+    </nav>
+
+
+
+
+   
+
+
+    <!--SOBRE MI-->
+
+
+    <div class="borde">
+        <div class="quien-soy" id="foto">
+            <div class="info">
+                <h1>Hola, Soy el Mathi</h1>
+                <h2></h2>
+                <p>Soy un estudiante del colegio <span><a href="https://www.arturomattelarrain.cl/"
+                            target="_blank">AML</a></span></p>
+                            <br>
+                <div class="redes-sociales">
+                    <a href="https://github.com/mathiiiiiiiiiiiiiia" target="_blank">
+                        <ion-icon name="logo-github" class="las-redes"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/math1.611/" target="_blank">
+                        <ion-icon name="logo-instagram" class="las-redes"></ion-icon>
+                    </a>
+                    <a href="https://www.discord.com/pqwe#5043/" target="_blank">
+                        <ion-icon name="logo-discord" class="las-redes"></ion-icon>
+                    </a>
+                    <a href="https://steamcommunity.com/profiles/76561199275006138/" target="_blank">
+                        <ion-icon name="logo-steam"class="las-redes"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <img src="imagenes/yo.jpeg" class="img-yo">
+        </div>
+    </div>
+
+
+    <!--HABILIDADES-->
+
+
+    <div class="habilidades-2" id="skills">
+        <div class="info fade-in">
+            <div class="yo">
+                <h4 id="skills">Mis Habilidades</h4>
+            </div>
+            <div class="skills">
+                <ul class="progress-bars">
+
+                    <li>
+                        <ion-icon name="logo-html5"></ion-icon>
+                        <label class="text-skills" for="file">HTML</label>
+                        <div class="contenedor-barra">
+                            <progress id="progressBar" max="100" value="80">
+                            </progress>
+                        </div>
+
+
+                    </li>
+
+                    <li>
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <label class="text-skills fondo-text-skills" for="file">CSS</label>
+                        <div class="contenedor-barra"><progress id="progressBar" max="100" value="50"></progress>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <ion-icon name="logo-nodejs"></ion-icon>
+                        <label class="text-skills fondo-text-skills" for="file">js</label>
+                        <div class="contenedor-barra">
+                            <progress id="progressBar" max="100" value="20"></progress>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label class="text-skills fondo-text-skills" for="file">Python</label>
+                        <div class="contenedor-barra">
+                            <progress id="progressBar" max="100" value="0"></progress>
+                        </div>
+
+                    </li>
+
+
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--MIS TRABAJOS-->
+
+
+
+
+
+
+
+
+    <div class="habilidades-3" id="habilidades-3">
+        <div class="info fade-in" id="works">
+            <div class="yo">
+                <h4>Trabajos</h4>
+                <p>Por ahora tengo 1 solo desarrollo, se vienen más proximamente.</p>
+            </div>
+            <div class="skills-">
+                <div class="top">
+                    <main class="main">
+                        <div class="center">
+                            <div class="paginas-web">
+                                <a href="https://monorandon.github.io/Zona-de-sacrificio-2/" target="_blank">
+                                    <img src="zonadesacrificio.png" alt="">
+                                    <p>Este es un informe de zonas de sacrificio en Chile.</p>
+                                </a>
+                            </div>
+                            <p>ZONA DE SACRIFICIO</p>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--Resumen-->
+
+
+    <div class="habilidades-2" id="resume">
+        <div class="info fade-in">
+            <div class="yo">
+                <h4 id="works">Resumen</h4>
+                <p>Más sobre mi.</p>
+            </div>
+            <div class="skills-">
+                <div class="juntar">
+                    <div class="pasantia">
+                        <div>
+                            <h2 id="pasantia">Experiencia</h2>
+                        </div>
+                        <div class="img-parrafo">
+                            <div class="diseno">
+                                <div class="circulo"></div>
+                                <div class="linea"></div>
+                                <div class="circulo"></div>
+                            </div>
+                            <div class="info-pasantia">
+                                <h3 class="h3">Avance en la creación web y desarrollo de competencias</h3>
+                                <p class="grey"></p>
+                                <p class="yellow">2024 - presente</p>
+                                <p class="greyy">Mi trayectoria educativa en el Colegio Arturo Matte Larrain, 
+                                que inició en 2022 y continúa hasta la fecha, se centra en mi desarrollo 
+                                como profesional en el ámbito del desarrollo web. 
+                                Durante este período, he participado activamente en varios proyectos
+                                facilitados por la institución, lo que me ha permitido cultivar habilidades
+                                fundamentales como el trabajo en equipo, la comunicación efectiva, 
+                                la resolución de problemas y la autogestión. Además, he adquirido competencias en diversos 
+                                lenguajes de programación. Esta experiencia vivida ha sido esencial para alcanzar mis objetivos profesionales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pasantia">
+                        <div>
+                            <h2 id="pasantia">Sobre Mi</h2>
+                        </div>
+                        <div class="img-parrafo">
+                            <div class="diseno">
+                                <div class="circulo"></div>
+                                <div class="linea"></div>
+                                <div class="circulo"></div>
+                            </div>
+                            <div class="info-pasantia">
+                                <h3 class="h3">¿Quien soy?</h3>
+                                <p class="grey">un poco de mi vida personal</p>
+                                <p class="yellow">2024 - presente</p>
+                                <p class="greyy">Mi nombre Mathias Rosales, actualmente soy estudiante
+                                    del colegio <span class="aml"> <a href="https://www.arturomattelarrain.cl/">Arturo Matte Larrain</a></span>
+                                    mis hobbies favoritos es tocar musica y jugar voleyball, a lo de la musica me considero una persona melomana
+                                    pero escucho mas metal, mis metas son poder pasar el año y aprender más sobre programación para mejorar todo 
+                                    acerca de esto, tengo un telefono y un computador un poco viejo y con esto puedo programar algunas cosas. Mi 
+                                    asignatura favorita es programación y base de datos, ya que podemos entrar a las pc y poder adentrarnos a ellas.
+                                    aún asi he tenido apoyo de personas como mis amigos en mencion especial a: Yastin Villaroel, Juandiego Medina, Brandon Morales 
+                                    y Cristofer Fuentes. Tambien agradecer a mi novia por darme apoyo emocional, y más al Yastin por darme como ejemplo a uno de 
+                                    sus proyectos como base de desarrollo de este portafolio.
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--MI CONTACTO-->
+
+
+    <div class="habilidades-2" id="contact">
+        <div class="info fade-in">
+            <div class="yo">
+                <h4>Contacto</h4>
+            </div>
+            <div class="skills-">
+                <div class="flexx">
+                    <div class="solicitud">
+                        <div class="info-solicitud">
+                            <h1>¿Me necesitas?</h1>
+                            <h5>Escribe un mensaje :D</h5>
+                        </div>
+                        <div class="btn-flecha">
+                            <button class="flecha">→</button>
+                        </div>
+                    </div>
+                    <form class="formulario" id="miFormulario" action="https://formsubmit.co/mathias.rosales.gallegos@alumnos.sip.cl" method="POST">
+                        <input type="text" id="nombre" class="name" placeholder="Nombre" name="name">
+                        <input type="email" id="email" class="email" placeholder="E-mail" name="email">
+                        <input type="text" id="subjet" class="subjet" placeholder="Numero" name="phone">
+                        <textarea id="comentario" cols="30" rows="10" placeholder="Deja un mensaje"
+                            name="message"></textarea>
+                        <button class="send" type="submit" onclick="enviarCorreo()">Enviar<img class="avion"
+                                src="imagenes/enviar-correo (1).png" alt=""></button>
+                                <input type="hidden" name="_next" value=" https://github.com/mathiiiiiiiiiiiiiia">
+                                <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Contactame-->
+
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icons">
+            <li class="redes"><a href="https://github.com/mathiiiiiiiiiiiiiia"><ion-icon name="logo-github"></ion-icon></ion-icon></a></li>
+            <li class="redes"><a href="https://www.discord.com/pqwe#5043/"><ion-icon name="logo-discord"></ion-icon></a></li>
+            <li class="redes"><a href="https://www.instagram.com/math1.611/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li class="redes"><a href="https://steamcommunity.com/profiles/76561199275006138/"><ion-icon name="logo-steam"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#foto" onclick="retrasarRedireccion(event)">Inicio</a></li>
+            <li><a href="#skills" onclick="retrasarRedireccion(event)">Habilidades</a></li>
+            <li><a href="#works" onclick="retrasarRedireccion(event)">Trabajos</a></li>
+            <li><a href="#resume" onclick="retrasarRedireccion(event)">Resumen</a></li>
+            <li><a href="#contact" onclick="retrasarRedireccion(event)">contacto</a></li>
+        </ul>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+
+</html>
+
+
